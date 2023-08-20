@@ -1,0 +1,960 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88587bbd0dcc68c499fa62f3144f6b12, type: 3}
+  m_Name: FurnitureDatabase
+  m_EditorClassIdentifier: 
+  objectsData:
+  - <Name>k__BackingField: Mesa 1
+    <ID>k__BackingField: 204
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 7296144148794740722, guid: 45196c5d7354ffd42a1036a4353f0a85, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 98c842d0ebe45994d8264c6900c2a60c, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1729430975194553458, guid: b064c01bc10782e4484af5e0406fd004, type: 3}
+  - <Name>k__BackingField: Mesa 2
+    <ID>k__BackingField: 205
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 8204842669239335547, guid: 832662cd897292943865050747330995, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 861f7e7c9a1ecdd4bad8681001beb5b1, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1684777565858034484, guid: 75641ba8c170a04439a45f43c875fee5, type: 3}
+  - <Name>k__BackingField: Mesa 3
+    <ID>k__BackingField: 206
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 3368576936322013377, guid: d0c3fbf6c2b7fb548a1303e5ba5de2f0, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 777d25ab85a45294790ab9000cb1d122, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 9098799543776635923, guid: 518572839e8e65c408ccc30a02d679cb, type: 3}
+  - <Name>k__BackingField: Mesa Alta
+    <ID>k__BackingField: 207
+    <Size>k__BackingField: {x: 2, y: 2, z: 3}
+    <Prefab>k__BackingField: {fileID: 6982800200449351944, guid: 8ca72271e7c20e24c8ecd7e6df50b20d, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: ee26b92e7670309428d5798afab5a4eb, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8627151941731869295, guid: 0813c5bf27a26b04197402cb4840bb84, type: 3}
+  - <Name>k__BackingField: Trash 1
+    <ID>k__BackingField: 208
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 3364273938108576629, guid: 6a94314a48305b9448b0ea9a83ef2f12, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 0c0ebc882a2b170428fed0e576d9aa4b, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 2
+    <ID>k__BackingField: 209
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 8976031852415469717, guid: c7d2fdb6e0e9b2645adcc7751e162771, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: ce57860b5e79ed34180c04430b81cb6b, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 3
+    <ID>k__BackingField: 210
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 1372102819003177090, guid: cfea2e3143727994981f2716c2225f0e, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 0d514b68af83b4b4b88c8e0044b5b8d1, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 4
+    <ID>k__BackingField: 211
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 4791519399641944458, guid: feea2995f46cce64d8ffcb6ef14b957d, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 1b0e0029a884e68478c8d3dea273af93, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 5
+    <ID>k__BackingField: 212
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 6306183502860595171, guid: 239d2f043bbef294083052719d4f5763, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 87485b72837b2a84a89a99233f1a93b0, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 6
+    <ID>k__BackingField: 213
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 4298816325493479519, guid: a5eb12acd380aeb41a1d42453693767a, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 624d994a540aaeb468ff735177e83a0b, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 7
+    <ID>k__BackingField: 214
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 6781797032315245016, guid: aeb43f559aaaf21429e43341f2b5e950, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 54e3a2144a8632d4389cba11e0915740, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Trash 8
+    <ID>k__BackingField: 215
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 75380469327994165, guid: cc52d4b628e81e94e90a1e9b51ac2446, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 6f46bebfce535cf42ac08dbd4bbf3c85, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 75380469327994165, guid: 75a9f8e2202580049b5f19a975db9c7b, type: 3}
+  - <Name>k__BackingField: Guitarra
+    <ID>k__BackingField: 216
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 3703347213514584359, guid: 03c5c7120eeacc44192045bf0ccf04a3, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 58b8f15b3880b4d4b84b49f954462a8d, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Cama 1
+    <ID>k__BackingField: 217
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 3746816607285508299, guid: 131baa70c78349b4fa5418e798c5803c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 25e68ebfd0833a74db0b1d39d24dc6d2, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 539687202312335586, guid: 1c6de2b9108227a4bad71ee9d5c6011c, type: 3}
+  - <Name>k__BackingField: Cama 2
+    <ID>k__BackingField: 218
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 2483750541840954340, guid: 9eab73848a5254641acaa9ad3d7a8aca, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: a882079548be7c849aa37db54b339feb, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3706089641162969710, guid: 5780ee37f10d1a649b6bddf0fde7699a, type: 3}
+  - <Name>k__BackingField: Cama 3
+    <ID>k__BackingField: 219
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 9148028012053865738, guid: 17e8fc4d4fd96c34e9b04b62ca00ae14, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 610b9bab092901241ab3318727e25176, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3831203372309371083, guid: 1c8b31803722ba544b63a8b2c99ac4fa, type: 3}
+  - <Name>k__BackingField: Cajonera
+    <ID>k__BackingField: 221
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 2985486155426537615, guid: f844a500302c25b44955561fe9c9df78, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 211e6d82030196b46847900c53fa7d69, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4681186582773746475, guid: c6bf3fb5a417cc94983e42f5e63076b2, type: 3}
+  - <Name>k__BackingField: Cajonera Alta
+    <ID>k__BackingField: 222
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 1839842465086051073, guid: 0f66da54b5dba60418a53166e968873d, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: fce2be00fb4fa254eb7e1ff31f5b7eb2, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 858324987466851267, guid: ba7513e47a5a7b74b9dcda469961faf7, type: 3}
+  - <Name>k__BackingField: Mueble Discos
+    <ID>k__BackingField: 223
+    <Size>k__BackingField: {x: 1, y: 3, z: 1}
+    <Prefab>k__BackingField: {fileID: 926507459039364024, guid: 4221277d3e251e04eba07e746b5f792c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 23ebfb1bd4c79284f9a886741b8e2f89, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 763235157510986607, guid: a237dcacbcb0c3944b02f76a3b254b78, type: 3}
+  - <Name>k__BackingField: Trash Planta
+    <ID>k__BackingField: 224
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 1529455414194883511, guid: 9054f67f6f69e6145aaa3f729551fd83, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 3b2c4b815eb495d4e8d965a1ad684a92, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Cactus
+    <ID>k__BackingField: 225
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 4646580401141531049, guid: 43daee79a90aeb7448e20ceab14b58e0, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 70a05c7b4599b6f499d3300fbe62eebb, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Cactus Alto
+    <ID>k__BackingField: 226
+    <Size>k__BackingField: {x: 1, y: 3, z: 1}
+    <Prefab>k__BackingField: {fileID: 5412661319145413725, guid: ff0d018ed806b7747b3126652c08f3c6, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 067995e2cfd974540886b9a2f139cffc, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Planta A
+    <ID>k__BackingField: 227
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 3001890958644426262, guid: cd06ace89fd2537408aace81ea4b19f7, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f2bc9612285b3c94aa33e87f9fa05bfd, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Planta B
+    <ID>k__BackingField: 228
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 2513370800204218977, guid: 9df53bcd2b1fc3245bf3e40a0eac413c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: df8e6c3d87bc67941960748975a84ca9, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Planta C
+    <ID>k__BackingField: 229
+    <Size>k__BackingField: {x: 1, y: 3, z: 1}
+    <Prefab>k__BackingField: {fileID: 5855112497745494958, guid: 7d0566f294e55214b9ae067d5446ab0b, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 2a65d0b26420a5744b68bc726d07974a, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Planta D
+    <ID>k__BackingField: 230
+    <Size>k__BackingField: {x: 1, y: 3, z: 1}
+    <Prefab>k__BackingField: {fileID: 2312551723838034826, guid: 909ec6de4415247469bd76d10a0fd3f7, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f60c2969e01250446beb18edd1fc2c3e, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Planta E
+    <ID>k__BackingField: 231
+    <Size>k__BackingField: {x: 1, y: 3, z: 1}
+    <Prefab>k__BackingField: {fileID: 8410085095582074549, guid: 716c18c617174e540950c836e2597159, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f272cdbc09e641d4ea89479073de8be5, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Silla A
+    <ID>k__BackingField: 232
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 6557376148480310931, guid: eb1aba3abfafe2648ae3a7f133291359, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: bc50fcc8a420c97418763828d22a37d8, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4753156070995890804, guid: 7f15c37de98a5224aa7881fd232a2511, type: 3}
+  - <Name>k__BackingField: Silla B
+    <ID>k__BackingField: 233
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 293040839412388506, guid: b85cb4842052f9f4e99c1a1c0139b025, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 16dbe12b94cda044a8d0acd7e639003d, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8487400670315821166, guid: f70bceb736a6deb4cabc08c96f5ff2e7, type: 3}
+  - <Name>k__BackingField: Silla C
+    <ID>k__BackingField: 234
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 1300762431865960404, guid: 2bf0cab4066acb84692d3acf788a8c4f, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 601d28051f9719d4e82cb9dcc99eda31, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4823515182508696441, guid: 3fb1d96e19c51e9449bfdc3c5c34b3b0, type: 3}
+  - <Name>k__BackingField: Taburete A
+    <ID>k__BackingField: 235
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 8791738710316491419, guid: 6c766a9d8af981945afd4fbb18b8d7c7, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: eb1443ef1259b4e4e8ff7e577dbd49ea, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Taburete B
+    <ID>k__BackingField: 236
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 6677659360129105841, guid: 5d7623019d1d97f4c8d6765383478ec0, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: bc4166a28bf9c434da72e9a607b5644d, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Sofa A
+    <ID>k__BackingField: 237
+    <Size>k__BackingField: {x: 2, y: 2, z: 3}
+    <Prefab>k__BackingField: {fileID: 4219058207411440423, guid: 9e9350daa10c7594e8a0f76f3e33f233, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 99d25ca454b098f40a0cbd3adc37bcc7, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2003963286890023857, guid: 066294fefaea1cc4f9357ad7c9f1f083, type: 3}
+  - <Name>k__BackingField: Sofa B
+    <ID>k__BackingField: 238
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 8413532880551629689, guid: 6b5d8c386f809a2489940c177ea03836, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 400c66f642638894798c4c7b98539a83, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1821665887322450081, guid: f5b8990f6fabd5c42ade2275d0b57526, type: 3}
+  - <Name>k__BackingField: Sofa C
+    <ID>k__BackingField: 239
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 6327673236236795081, guid: b7d4f612bc7fdf14c82d9fd2b72474e6, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: afbc92533aa335042af79a107bdd42be, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2348703977987677800, guid: 3a2b46b5d18dc07469fbc8bc4326c5bb, type: 3}
+  - <Name>k__BackingField: Sofa D
+    <ID>k__BackingField: 240
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 2481380919284760455, guid: 312037fec6fafc34788493ba0e167889, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 25d86246209978642a3cb4ce08123228, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3704995728255740359, guid: 11469410d91e9fe4d83d73df49f43580, type: 3}
+  - <Name>k__BackingField: Cuadros
+    <ID>k__BackingField: 100
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 7895533778974037891, guid: aa7cc88803355d04ebf67fa408812c74, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 61d603085c7006f438839c1e23bc1e86, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8811729511174474887, guid: d62178b8926517244aae4d26840db09a, type: 3}
+  - <Name>k__BackingField: Estanteria
+    <ID>k__BackingField: 101
+    <Size>k__BackingField: {x: 1, y: 1, z: 2}
+    <Prefab>k__BackingField: {fileID: 3933527750795958189, guid: 7b7ee963f6acae342995b5eb8eb06a96, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 20f27995e9d897d4e8c3dd731991aa98, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5151103415409722781, guid: 6d41ecd9477cb604ab487e38c422146f, type: 3}
+  - <Name>k__BackingField: Poster A
+    <ID>k__BackingField: 102
+    <Size>k__BackingField: {x: 1, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 2979791872235606502, guid: 7d5471ab0fbc4da49b416321feff2140, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: e2b2f92b670581849a49c6af50fbbf74, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 6081458458709565166, guid: 470e5ab1505bf8e47ac737a51307adba, type: 3}
+  - <Name>k__BackingField: Poster B
+    <ID>k__BackingField: 103
+    <Size>k__BackingField: {x: 1, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 7296292474533779264, guid: 40a3c842638df0449a5d8691d6ccf76e, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 2431d7e1cf050a046be96680f61e36f0, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 7048086807878119871, guid: 5a3e1a6a4cee34d45a04019be7e1b316, type: 3}
+  - <Name>k__BackingField: Poster C
+    <ID>k__BackingField: 104
+    <Size>k__BackingField: {x: 1, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 7065445159734344975, guid: 4235d7495496ca04ca8e5d686edf6a4a, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f009a199c4e20204c8c739c02c13c642, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8848758910929391707, guid: 4719abec82c2bd841aeea7b28dbb829e, type: 3}
+  - <Name>k__BackingField: Poster D
+    <ID>k__BackingField: 105
+    <Size>k__BackingField: {x: 1, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 4522212309429155026, guid: 92d9185455e2bfd4e9e09e07b9e2d72d, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d41d8f51903a11c46bc973da64859766, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3816022716695870652, guid: 171fc48402e8caa479a71cb6998a1187, type: 3}
+  - <Name>k__BackingField: Cajonera Pared
+    <ID>k__BackingField: 106
+    <Size>k__BackingField: {x: 1, y: 1, z: 2}
+    <Prefab>k__BackingField: {fileID: 3264683533283656889, guid: 62a1400a996a86b43bb7af3cd9e90534, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 363244447a8683c4486a69ef1231184a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8693340243207893028, guid: b699b5924a933cc49b22bf9198808349, type: 3}
+  - <Name>k__BackingField: Alfombra 1
+    <ID>k__BackingField: 0
+    <Size>k__BackingField: {x: 4, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 1581864525877621479, guid: 23788cd48c1d9924d9223a7e4b9f7fae, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d42eed7c28224624baaf61467ee0e564, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 9040343078531605346, guid: 3d45b11dc112edd409d2e3abd24db928, type: 3}
+  - <Name>k__BackingField: Alfombra 2
+    <ID>k__BackingField: 1
+    <Size>k__BackingField: {x: 4, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 818434322303969666, guid: 3431dceedcfc7e74b9ad08f194b47ae2, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: db548e11b338a424c8da1f2dde816521, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3886641804649348744, guid: b42abd8a62280d240840be30837e25cb, type: 3}
+  - <Name>k__BackingField: Alfombra 3
+    <ID>k__BackingField: 2
+    <Size>k__BackingField: {x: 4, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 2540331331424276070, guid: e2b25d745e5ebdb4b95c737a938f1d6b, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: c0202990b4a3b5a4786932447532c46a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1663700070455451554, guid: 4b86b1dd48ef5764682489bcbf74b118, type: 3}
+  - <Name>k__BackingField: Alfombra 4
+    <ID>k__BackingField: 3
+    <Size>k__BackingField: {x: 4, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 4691941024392177261, guid: a57c789f9d4592c4983b6f896abaa8e5, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d677f2b9655928348a12ac957dd83a1c, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 9023209777774878531, guid: 211f706769cd888499653e7a5dd5cf72, type: 3}
+  - <Name>k__BackingField: Alfombra 5
+    <ID>k__BackingField: 4
+    <Size>k__BackingField: {x: 4, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 7445263577295824843, guid: 695bc0c9b79c0a245a7573627e1fdc7c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: b41e3ace94e889b479302ad2e6346434, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3577426860470214851, guid: df9b5787ac079da4a8b7fe9bb781a2c3, type: 3}
+  - <Name>k__BackingField: Alfombra 6
+    <ID>k__BackingField: 5
+    <Size>k__BackingField: {x: 4, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 3813542665386785289, guid: 981f0ae6dae9d4b438bef3f9a9d6b71d, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 84de2cb8b6e34764dac4c9157a262efb, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5676017755922242335, guid: c7b8d8d93e054e340a7537d215d7ee8d, type: 3}
+  - <Name>k__BackingField: Alfombra 7
+    <ID>k__BackingField: 6
+    <Size>k__BackingField: {x: 4, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 4797732168495624992, guid: 9d3b6a4eb3885a24b8ee4b33c374f878, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 0d518465a7cca6f459ce0a8b7b9c757e, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2754211706288163952, guid: b5c65faecfe038e48b20ea4cc3a26f56, type: 3}
+  - <Name>k__BackingField: Alfombra 8
+    <ID>k__BackingField: 7
+    <Size>k__BackingField: {x: 4, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 12161250111695734, guid: 75dede912fb3b124caee8207c308cdac, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d73391acf6f5bf24ba6a8e8461abde6a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4618356422798855246, guid: ff4934175bcf4da41accb7ebb4c00550, type: 3}
+  - <Name>k__BackingField: Alfombra 9
+    <ID>k__BackingField: 8
+    <Size>k__BackingField: {x: 4, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 8839965823694974601, guid: 534b0514d056b904c92faf8a83df5913, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 656f34310c49d7b448f1bad3d9b2aa3f, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 7027428028806634009, guid: 06176000a4c89ff4b9b681c703640e90, type: 3}
+  - <Name>k__BackingField: Alfombra Grande 1
+    <ID>k__BackingField: 9
+    <Size>k__BackingField: {x: 5, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 87899465906713022, guid: 6287332ded9da45499ced91b4328d858, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 54352c562c34b804f872f96bf9f484d9, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 9200451769241335806, guid: a2240d45198d1b143abe1128b33bb4de, type: 3}
+  - <Name>k__BackingField: Alfombra Grande 2
+    <ID>k__BackingField: 10
+    <Size>k__BackingField: {x: 5, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 1856680206732954945, guid: 9b2839edcecd43f45aaf889d6a072e36, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 0a7a5592894a8dd43aa95ef5662f85c2, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 242514776728077280, guid: 849ce315cc72b8c4d95c7ae8d444100c, type: 3}
+  - <Name>k__BackingField: Cuadro 1
+    <ID>k__BackingField: 107
+    <Size>k__BackingField: {x: 1, y: 2, z: 3}
+    <Prefab>k__BackingField: {fileID: 730132254288236126, guid: 91ee9d7a8ce91c041a8e2ced4417796c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f9f51c4ed8328f4408d91ad4aa7e2e75, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1993722999397587095, guid: a37cc1525803bd34188d368beb3a2235, type: 3}
+  - <Name>k__BackingField: Cuadro 2
+    <ID>k__BackingField: 108
+    <Size>k__BackingField: {x: 1, y: 2, z: 3}
+    <Prefab>k__BackingField: {fileID: 6500933903193915499, guid: 7a7270fa596a3634dab587f7be88349b, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: bd3d544566dcbf84fa2f9b1a7f90a67c, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4625019974224292292, guid: 760c1d39940b4454b98576d3162b17d0, type: 3}
+  - <Name>k__BackingField: Planta Pared 1
+    <ID>k__BackingField: 109
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 2250345718176485825, guid: 7b6cb2cb9bb375548a646c4c203f8903, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d24f563ae886b604b86f209aafcb1abb, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3707648968863589525, guid: 6b225e0db223c844a8cc98f5260a8b89, type: 3}
+  - <Name>k__BackingField: Planta Pared 2
+    <ID>k__BackingField: 110
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 1498955237293301382, guid: 17a4f47d929581f4282a06c38093ec15, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 3180a54ea4b9c234e8dd52b17859a522, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8093884941458642099, guid: 817e239775a9e8349856f091cb05ef66, type: 3}
+  - <Name>k__BackingField: Poster 1
+    <ID>k__BackingField: 111
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 2261968491307774598, guid: 31c780308967c764f844a6f92459fbd7, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 8d9b98411c966ec45a878261e4aa23c1, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 7103722991613966462, guid: 61e22577fcc8d6643ac52a6f84601f36, type: 3}
+  - <Name>k__BackingField: Poster 2
+    <ID>k__BackingField: 112
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 2542503947333745607, guid: eee6e8a36a14dec46bf9df87e49dadb2, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 7a6bdefec5b45f940b92fbab9b590f8a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 6384346632444921484, guid: 403aa86ecaea321439e959ab05a216cf, type: 3}
+  - <Name>k__BackingField: Cama Doble 1
+    <ID>k__BackingField: 241
+    <Size>k__BackingField: {x: 3, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 8103531326838495720, guid: 2d9b554bfbd2fca4fbe4d71ef0c354cf, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 3f2d6b2c5dd68c949b332b77e36bc0bb, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3863149754444715897, guid: a153b2df3cde0ab4094765ce78f485c9, type: 3}
+  - <Name>k__BackingField: Cama Doble 2
+    <ID>k__BackingField: 242
+    <Size>k__BackingField: {x: 3, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 2522190487758670655, guid: 89184112fe6bb8844a5b4cc257b38353, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: fd9263e37f1312e42aabe8bc8c373066, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2359526558513495324, guid: edcbefcec28ffcd4eae7d1ab6ff9e774, type: 3}
+  - <Name>k__BackingField: Estanteria
+    <ID>k__BackingField: 243
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 1226219490544549546, guid: 69266b171f60d46499bbc5ef17305d8a, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: fd6bf600d7678434da7841814850e72a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3314415396453848838, guid: 7f3adae7f4ba1ba4ea142e5ae0bbf853, type: 3}
+  - <Name>k__BackingField: Perro
+    <ID>k__BackingField: 244
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 1529455414194883511, guid: 3a250511494e2214bb12582bf36899f5, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 3ab41143a2bfcd04d954c165a5cdd97d, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 1
+    <RotatedPrefab>k__BackingField: {fileID: 1529455414194883511, guid: af4d7b84e9a143c4f964ba680fca98a3, type: 3}
+  - <Name>k__BackingField: Gato
+    <ID>k__BackingField: 245
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 1529455414194883511, guid: 1017759447d43cd4fb0f060c9623fd3f, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 80eff6fc9fc3d514c8c16f7a6a35ac38, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 1
+    <RotatedPrefab>k__BackingField: {fileID: 1529455414194883511, guid: c8c428ec957bb684f97f3a799e45e090, type: 3}
+  - <Name>k__BackingField: Candelabro
+    <ID>k__BackingField: 247
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 1529455414194883511, guid: dceb3d6523f3e4f469ccaced30209026, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 051bf67b238d5ff41bcff81a3124a8d8, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Velas
+    <ID>k__BackingField: 248
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 1529455414194883511, guid: c03cbfe30d49a0241a3ecbce3acd1877, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 36e25db7257a92f44bed6396cf1d1348, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Cama Vagabunde
+    <ID>k__BackingField: 249
+    <Size>k__BackingField: {x: 3, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 1529455414194883511, guid: 2acd5f72534da614e8c678c720e2fe60, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 71dfad3aa8b9f1d4eab4a7096e6c30dc, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 1
+    <RotatedPrefab>k__BackingField: {fileID: 1529455414194883511, guid: 0ae9b476d6e147145a795b5edbac6a48, type: 3}
+  - <Name>k__BackingField: Cama 4
+    <ID>k__BackingField: 250
+    <Size>k__BackingField: {x: 3, y: 1, z: 2}
+    <Prefab>k__BackingField: {fileID: 55876148621977719, guid: 3dc41d771c63ed44d9464fc416d0fb15, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 7699f13f7ff225f4fbc5496ac6dce0c0, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3247123194823733269, guid: ce442b0d8ffe77c43aa7f488eae4048b, type: 3}
+  - <Name>k__BackingField: Cama 5
+    <ID>k__BackingField: 251
+    <Size>k__BackingField: {x: 3, y: 1, z: 2}
+    <Prefab>k__BackingField: {fileID: 5212602339906105612, guid: 5c7b79b349109ab4eba7322f3d593e9d, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 4e716b3c8c3bc0f41be0146b973ad62a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3246013139092125483, guid: 519b03f5bfd6bae41bb5a45b8872466c, type: 3}
+  - <Name>k__BackingField: Cama Doble
+    <ID>k__BackingField: 252
+    <Size>k__BackingField: {x: 3, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 7058075309756403472, guid: f51c6a8b9f2d7ad41bcb260a1d5c603f, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f104ffafbbd1ce34985609138e563b6a, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5332745511693096439, guid: 1c9795bd2bef2a046af8d4ab2ca004bf, type: 3}
+  - <Name>k__BackingField: Mesa 4
+    <ID>k__BackingField: 253
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 740457624588989199, guid: 3125ff9b7634e6a4cbeb76b0d1ae56f3, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 37896ad9b2174384ab434689b155f6ce, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3525030522732291999, guid: a144525b79d750f47b2ece9ca9cd1375, type: 3}
+  - <Name>k__BackingField: Mesa 5
+    <ID>k__BackingField: 254
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 7270620055895279083, guid: 3e1e56c71451c4a4a851e6d10afe4e81, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 6f8590a4bb1c818478bf79e6319183c5, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2079232429208707567, guid: e75eb8e83dfe220448d4ec333d63b7da, type: 3}
+  - <Name>k__BackingField: Mesa 6
+    <ID>k__BackingField: 255
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 8496517580901414074, guid: e26971bf3e444ab40a652a5ab3ce38cd, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 4bfc593835a85504785b062cd111324e, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1712544068601698849, guid: 624fb0978c396194996b1f11f2be1012, type: 3}
+  - <Name>k__BackingField: Mesa 7
+    <ID>k__BackingField: 256
+    <Size>k__BackingField: {x: 2, y: 1, z: 3}
+    <Prefab>k__BackingField: {fileID: 7402948626233241500, guid: 6b8f3a1dffefe734fac854f16c36c8cb, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 529eb61fd2dd405409fdba86b84ddd5f, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2568469537883072033, guid: a274634d345f31b4bb24c546c5d8838b, type: 3}
+  - <Name>k__BackingField: Planta Grande 1
+    <ID>k__BackingField: 257
+    <Size>k__BackingField: {x: 2, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 8242547025777560983, guid: 08bd14665d8d6cf4f9b2aeffd4e56442, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 72fa215ff644b4443970459f3f830fcd, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Planta Grande 2
+    <ID>k__BackingField: 258
+    <Size>k__BackingField: {x: 1, y: 4, z: 1}
+    <Prefab>k__BackingField: {fileID: 3915717021177154598, guid: eb9836351a3b74546b6f3bbc6fbe8dc3, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 74c3c673eb434a44ba85a109091e8c93, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Puff
+    <ID>k__BackingField: 259
+    <Size>k__BackingField: {x: 2, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 2855680164216376329, guid: bce29702da417e546b2ad5fd79bdb266, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d01e9fceece713f43b2ec6d92b2120e4, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4076831341809460835, guid: 21c214bfdcc19c5419bb297055913ceb, type: 3}
+  - <Name>k__BackingField: Sillon
+    <ID>k__BackingField: 260
+    <Size>k__BackingField: {x: 2, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 1440794456701786315, guid: 1171d112807660f4d87eeef0383b8f1c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 1bd52c6aeb0d858408492533a3ab4f27, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 9095024162090730538, guid: 06a370452ed8de84fa538f7ffa674bdf, type: 3}
+  - <Name>k__BackingField: Sofa 1
+    <ID>k__BackingField: 261
+    <Size>k__BackingField: {x: 3, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 5024157582538198429, guid: 2b248d8044fb81141829392223d5ca55, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: fed75fdfb9bc4ca4da57c876b1a11471, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 7667417228460435568, guid: c90f6fd3ca4b9994ebddefff41fc6db1, type: 3}
+  - <Name>k__BackingField: Sofa 2
+    <ID>k__BackingField: 262
+    <Size>k__BackingField: {x: 3, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 9030117802788975041, guid: e414a6bbb7a33864c961badca5af64b3, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: bbb1c1f5e4206af429a829137d32525b, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3963310611769332308, guid: 3b064dce5ffa9e742bac5f661c5f8d1d, type: 3}
+  - <Name>k__BackingField: Cuadro Grande
+    <ID>k__BackingField: 113
+    <Size>k__BackingField: {x: 1, y: 3, z: 4}
+    <Prefab>k__BackingField: {fileID: 506918719216779804, guid: 62c3ea172cec99349b0a545c481a3122, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 7be68fbfe48e95c4f9edc37cc20e5b7c, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 6974505793806401974, guid: a422721d8a62cec41b2cb766bb2ff0f7, type: 3}
+  - <Name>k__BackingField: Mascara
+    <ID>k__BackingField: 114
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 806360392186902632, guid: e59521fae28af8e4bbee61b71da44b81, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: d3f3829622043594b934fe63d7e2ed4e, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 7843621018958721174, guid: 606a7187267b05c4092e9b6ba94f1b39, type: 3}
+  - <Name>k__BackingField: Bombilla Pared
+    <ID>k__BackingField: 115
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 5139171721764115862, guid: c4c6142a0f6f4d1458926d777fde2b34, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 11e0531161c83314588feed38056b565, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8914184804810748280, guid: 203c6723635c9494bb4055c8b87a424e, type: 3}
+  - <Name>k__BackingField: Perchero Pared
+    <ID>k__BackingField: 116
+    <Size>k__BackingField: {x: 1, y: 4, z: 3}
+    <Prefab>k__BackingField: {fileID: 4818465112908765364, guid: 1a996aaadba992944b570090894ef807, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 41202339e1dd99440a125aa5fda29e3c, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 918177904228988117, guid: e1ce06e29e050d74999d6c2f8132d5aa, type: 3}
+  - <Name>k__BackingField: Luces de Pared
+    <ID>k__BackingField: 117
+    <Size>k__BackingField: {x: 1, y: 1, z: 4}
+    <Prefab>k__BackingField: {fileID: 3005818408662507794, guid: 425f98f6a613b2f49bb368dbfe0cc655, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 30dee0ec273f34f4b8e18f29bc145271, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 3139592326225798692, guid: 2907bf588b5d65947add4e2992e74f59, type: 3}
+  - <Name>k__BackingField: ACAB
+    <ID>k__BackingField: 118
+    <Size>k__BackingField: {x: 1, y: 2, z: 4}
+    <Prefab>k__BackingField: {fileID: 1550720121821949825, guid: 55770ed8302e79b4a89c4b99bf75c9be, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 3c706aa601df69f4f9963f559e0b0256, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5539113888646121145, guid: e4cf692ed82f66145be6e2edf952748f, type: 3}
+  - <Name>k__BackingField: Planta Pared 3
+    <ID>k__BackingField: 119
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 4108162546752078059, guid: 2996ed2cd29ba934e8953f9550932e06, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: a9d3cf367232375429d883c157e7875d, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5838009237647805250, guid: 7b4ba167739f01541ae47f7f8247ebf8, type: 3}
+  - <Name>k__BackingField: Planta Pared Doble
+    <ID>k__BackingField: 120
+    <Size>k__BackingField: {x: 1, y: 3, z: 4}
+    <Prefab>k__BackingField: {fileID: 7997178832106099194, guid: ca08c6b300ee7094090c5f8d6e8a728c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: edfbceacace67c348834e8f0a9aa0cf0, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 750541296847156668, guid: 87ea50915fe034348b61b19aef74b330, type: 3}
+  - <Name>k__BackingField: Calendario
+    <ID>k__BackingField: 121
+    <Size>k__BackingField: {x: 1, y: 2, z: 2}
+    <Prefab>k__BackingField: {fileID: 7867811075253778801, guid: 48137d61f1b1c8c4d8820ac0cd6407c8, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: bb8d4aa932400ac4cb85435dd56eec7b, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 4602874369012976309, guid: ac926d1695cc31d43ae5a397bffe8a3c, type: 3}
+  - <Name>k__BackingField: Flor
+    <ID>k__BackingField: 263
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 3862275418516484599, guid: b4ba50f8a0aaf2e4da5aca3e3959efeb, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: c0f1fde0d4a0f414aa3c2d655172d055, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Mesita 1
+    <ID>k__BackingField: 264
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 1398764113877557982, guid: 606199f3ec97b8f42a9472965f555c76, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 279c44453821c1a4188eb837b9214179, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 45306991929420561, guid: 7971bd0d5560f524093f81c9b271b122, type: 3}
+  - <Name>k__BackingField: Mesita 2
+    <ID>k__BackingField: 265
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 4057460934386548945, guid: 4f453dd39f7c8eb43b59cda154f0f8d9, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 182e4cc784ff21841bef92204b2c2b54, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Mesita 3
+    <ID>k__BackingField: 266
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 8788668857932725394, guid: 524b78cfc0ae0e34b8b341be21c87f55, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 269ab6e9f3a9c7e41bace4a7f8004b7a, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Mesita 4
+    <ID>k__BackingField: 267
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 930875946963839579, guid: 4e4cef273bbdaa74882b72f15e5a9c2a, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 3128b2e5815f1ae45bfad33d8761e0bf, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Tele Pared
+    <ID>k__BackingField: 122
+    <Size>k__BackingField: {x: 1, y: 2, z: 3}
+    <Prefab>k__BackingField: {fileID: 3379520389093324393, guid: dd9e74dd676e5064c8a7bfd07b2fb516, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: c09bb705fe39c35468941d3c2ef5f3b2, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5168691038334567143, guid: 3cadd9bf89564ac47b30eb19c32d61f8, type: 3}
+  - <Name>k__BackingField: Litera
+    <ID>k__BackingField: 268
+    <Size>k__BackingField: {x: 3, y: 4, z: 2}
+    <Prefab>k__BackingField: {fileID: 2475986620023296644, guid: 1324f0ef376b1c5448a65cf067fd1a17, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: acfefd3a6a3d65642b5f18db1c0a6ea2, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 1591827741883276821, guid: 50fe6b56aae74754382d55c18093fdbd, type: 3}
+  - <Name>k__BackingField: Lamparita 1
+    <ID>k__BackingField: 269
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 8226013903355975976, guid: bd92f59acfe0c0a479867420bd09edd1, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: ba8afa99d0edbcd4f9d120a1dda2522d, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 5903433066050439798, guid: 412c2a65b2595ed489296112041c848f, type: 3}
+  - <Name>k__BackingField: Lamparita 2
+    <ID>k__BackingField: 270
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 7580355524895378519, guid: c914e4df85af4ac43ba583bd2e407b83, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 21cfdf76b8cc1dd43a30e4086338d402, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Lampara Sal
+    <ID>k__BackingField: 271
+    <Size>k__BackingField: {x: 1, y: 1, z: 1}
+    <Prefab>k__BackingField: {fileID: 28607152295419370, guid: 9fda8fd84ce3afb4bb7420246e5410b4, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f4c3edc85121ff044b57052955ecbeac, type: 3}
+    <CanBeRotated>k__BackingField: 0
+    <CanBeOnTop>k__BackingField: 1
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: Silla 1
+    <ID>k__BackingField: 272
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 8547714857111437313, guid: 65f6735feb3e8484fb0bcf54e8af644c, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 6b99e5f5724bc4e419d0b7f5bdf038cd, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 2465967568506489303, guid: 88a10ea807e5c094ea35200bf6e3d497, type: 3}
+  - <Name>k__BackingField: Silla 2
+    <ID>k__BackingField: 273
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 6573051340914168052, guid: d1bff8e3d10cc5f4998ecd820244a8f3, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: f9b70caf6953b4d40a6755aada6dbe34, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8675277641432316802, guid: 79f407086e8663641b0133773e95378a, type: 3}
+  - <Name>k__BackingField: Silla 3
+    <ID>k__BackingField: 274
+    <Size>k__BackingField: {x: 1, y: 2, z: 1}
+    <Prefab>k__BackingField: {fileID: 6178843078124796936, guid: 82ce84a7ad0e14443b970e19637d2ef9, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: df0409cc4b692244b9b6644e18db69ff, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 0
+    <RotatedPrefab>k__BackingField: {fileID: 8529224941315174234, guid: 5a5223a92ba688742b2c687181a660d3, type: 3}
+  - <Name>k__BackingField: Acuario
+    <ID>k__BackingField: 275
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 2054803999458440610, guid: f9a437fef68c57747bae398aa386c49e, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: dbbb8747faf44c248bd5e539012ae247, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 1
+    <RotatedPrefab>k__BackingField: {fileID: 8741517536252381658, guid: c2424b0ef957ffc4b9b826ba87159025, type: 3}
+  - <Name>k__BackingField: Vivario
+    <ID>k__BackingField: 276
+    <Size>k__BackingField: {x: 1, y: 3, z: 2}
+    <Prefab>k__BackingField: {fileID: 2523260237578641063, guid: c6282275204e2174484aa9051c9caf3f, type: 3}
+    <Icon>k__BackingField: {fileID: 21300000, guid: 67660ddbd810cc747b9ea33faecf3303, type: 3}
+    <CanBeRotated>k__BackingField: 1
+    <CanBeOnTop>k__BackingField: 0
+    <CantBeDeleted>k__BackingField: 1
+    <RotatedPrefab>k__BackingField: {fileID: 7146663391973025870, guid: dcaf4dd609602284abd30a5d73f7b626, type: 3}

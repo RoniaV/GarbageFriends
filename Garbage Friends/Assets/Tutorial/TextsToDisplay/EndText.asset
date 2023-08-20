@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c9bfea7eefeda45b4a1d7821e6664d, type: 3}
+  m_Name: EndText
+  m_EditorClassIdentifier: 
+  name: 
+  sentences:
+  - Brilliant, now you know how to decorate your room. Don't forget to visit the
+    dumpsters on your street from time to time.
+  - Now you can go do something else...
+  - What?... You planned on lying around here all day?... Doing what?
+  - You can move the furniture as much as you want, but don't expect it to appear
+    in the dumpsters every 5 seconds.
+  - I recommed you focus on another task while you wait for a new piece of furniture
+    to show up.
+  - Or you can leave and come back once or twice a day to rearrange your room with
+    the new furniture.
+  - But please, whichever way you choose... don't be foolish and don't just sit around
+    waiting.
+  - See you later!
+  soundsLinkedWithSentences: []
